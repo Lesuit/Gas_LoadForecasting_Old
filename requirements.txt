@@ -1,0 +1,15 @@
+h5py==2.10.0
+xlrd==1.2.0
+openpyxl==3.0.5
+gunicorn==19.9.0
+requests==2.22.0
+google-cloud-storage==1.17.0
+numpy==1.19.1
+pandas==1.1.0
+tensorflow==2.0.0
+scikit-learn==0.23.1
+flask==1.1.2 
+flask-sqlalchemy==2.4.4 
+werkzeug==1.0.1 
+flask-session~=0.3.2
+msal==1.9.0

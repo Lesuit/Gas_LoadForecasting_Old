@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<!--h1>Home Page</h1-->
+<h1>Welcome {{ user.get("name") }}!</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <p>Welcome to the ATCOenergy Load Forecasting Website!</p>
+            <br>
+            <p>To start short-term load forecasting, please go to <a href="/uploadfile">Submit Sites Counts</a> page to submit the site counts document, and a forecasting report will be generated for downloading!</p>
+            <br>
+            <p>If you have questions, please contact: <a href="https://atco.sharepoint.com/sites/SpaceLab">SpaceLab</a></p>
+            <br>
+            <p>Click <a href="/logout">Log out</a> to leave this website.</p>
+            <!--p>Click <a class="btn btn-primary" href="/logout" role="button">Log out</a> to leave this website.</p-->
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}

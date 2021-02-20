@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Download Forecasting Report</title> 
+{% endblock %}
+
+{% block body %}
+
+<br>
+    <h1 style="display:inline">Download Forecasting Report</h1>
+    <br>
+    <hr>
+  <body class="body">
+     <div class="container" align="left">
+     <a href="/return-files/{{value}}" target="blank"><button class='btn btn-success'>Download</button></a>
+     <!--a class="btn btn-primary" href="/return-files/{{value}}">Download</a-->
+     </div>
+  </body>
+
+{% endblock %}
